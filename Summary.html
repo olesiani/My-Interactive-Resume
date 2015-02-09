@@ -1,0 +1,112 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="colors.css">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script>
+		function toggle(id)
+		{
+			var element = document.getElementById(id);
+			var elt=document.getElementById(id)
+			if(element)
+			{
+				var display = element.style.display;
+				if(display == "none")
+				{
+					element.style.display = "block";
+					elt.parentElement.firstElementChild.src="minus_sign.gif"
+				}
+				else if(display == "")
+				{
+					element.style.display = "block";
+					elt.parentElement.firstElementChild.src="minus_sign.gif"
+				}
+				else
+				{
+					element.style.display = "none";
+					elt.parentElement.firstElementChild.src="plus_sign.gif"
+				}
+				
+			}
+		}
+		</script>
+	</head>
+		<body>
+		
+		
+		<div class="container">
+		
+			<div class="row">
+				<div class="col-xs-1"></div>
+				<div class="col-xs-10"><img src="banner3.gif" style="width:1000px;height:auto;"></div>
+				<div class="col-xs-1"></div>
+			</div>
+		
+		
+		
+			<div class="row">
+				<div class="col-xs-3">
+					<br><br><br><br>
+					<h3 class="sub_heading">Navigation:</h3>
+					<ul class="nav nav-pills">
+						<br>
+						
+						<li role="presentation"><a href="my-resume.html">Main Menu</a></li>
+						
+						<br><br><br>
+						
+						<li role="presentation"><a href="workexp.html">Work Experience</a></li>
+
+					</ul>
+				
+				
+				
+				</div>
+				
+				<div class="col-xs-6">
+					
+					<h1 class="main heading">Summary of Qualifications</h1><br>
+						<ul>
+							<li><img src="plus_sign.gif" onclick="return toggle('inner_one');"> Python Proficiency<br>
+								<ul id="inner_one">
+									<p>I took a class in Python at PSU in 2014, and I also learned a lot
+									about python at PDX Code Guild. If you would like to see my python work, 
+									please go to the main menu and click on "Projects". </p>
+								</ul>
+							</li>
+							<br>
+							
+							<li><img src="plus_sign.gif" onclick="return toggle('inner_two');"> Bilingual (Fluent in English and Russian)<br>
+								<ul id="inner_two">
+									<p>I was born in Russia and visit it often. I went to first and second grade 
+									in Russia, so I know how to read, write, and speak Russian. I came to the US at age 8,
+									so I am fluent in English as well. </p>
+								</ul>
+							</li>
+							<br>
+							
+							<li>&nbsp&nbsp Attention to details</li><br>
+							<li>&nbsp&nbsp Multitasking</li><br>
+							<li>&nbsp&nbsp Interpersonal Skills</li><br>
+							<li>&nbsp&nbsp Strong knowledge of mathematics</li><br>
+							<li>&nbsp&nbsp Good with technology</li><br>
+							<li>&nbsp&nbsp Microsoft Word Proficiency</li><br>
+							<li>&nbsp&nbsp Computer Literate</li><br>
+							<li>&nbsp&nbsp Ability to learn quickly</li><br>
+							<li>&nbsp&nbsp Good mechanical skills</li><br>
+							<li>&nbsp&nbsp Quick typing skills</li><br>
+							<li>&nbsp&nbsp Experience with Microsoft Excel</li>
+						</ul>
+				</div>
+				
+				<div class="col-xs-3"></div>
+				
+			</div>
+			
+		</div>
+		
+		<body>
+<html>
+			

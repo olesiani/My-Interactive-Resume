@@ -1,0 +1,44 @@
+ul{
+
+	color:blue;
+	
+}
+
+
+
+#inner_one, #inner_two, #inner_three, #inner_four, #inner_five, #inner_six, #inner_seven, #inner_eight, #inner_nine, #inner_ten, #inner_eleven, #inner_twelve, #inner_thirteen
+{
+	display:none;
+}
+
+
+li
+{
+	list-style-type: none;
+}
+
+.detail
+{
+	display:none
+}
+
+
+.main_heading
+ {
+    text-align: center;
+}
+
+.inner_content
+{
+	text-align: center;
+}
+
+nothing
+{
+	background-image: url("blue.gif");
+	background-size: auto;
+	background-attachment: fixed;
+    background-position: center; 
+	background-repeat: no-repeat;
+}
+

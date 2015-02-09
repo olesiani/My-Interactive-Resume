@@ -1,0 +1,114 @@
+<doctype html>
+
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="colors.css">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script>
+		function toggle(id)
+		{
+			var element = document.getElementById(id);
+			if(element)
+			{
+				var elt=document.getElementById(id)
+				var display = element.style.display;
+				if(display == "none")
+				{
+					element.style.display = "block";
+					elt.parentElement.firstElementChild.src="minus_sign.gif"
+					
+				}
+				else if(display == "")
+				{
+					element.style.display = "block";
+					elt.parentElement.firstElementChild.src="minus_sign.gif"
+				}
+				else
+				{
+					element.style.display = "none";
+					elt.parentElement.firstElementChild.src="plus_sign.gif"
+				}
+				
+			}
+		}
+		</script>
+	</head>
+		<body>
+			<div class="container">
+			
+				<div class="row">
+					<div class="col-xs-1"></div>
+					<div class="col-xs-10"><img src="banner3.gif" style="width:1000px;height:auto"></div>
+					<div class="col-xs-1"></div>
+				</div>
+			
+			
+				<div class="row">
+					<div class="col-xs-3">
+					
+					<br><br><br><br>
+					<h3 class="sub_heading">Navigation:</h3>
+					<ul class="nav nav-pills">
+						<br>
+						
+						<li role="presentation"><a href="my-resume.html">Main Menu</a></li>
+						
+						<br><br><br>
+						
+						<li role="presentation"><a href="Summary.html">Summary of Qualifications</a></li>
+
+					</ul>
+					
+					</div>
+					
+					<div class="col-xs-6">
+					
+						<h1 class="main heading">Work Experience</h1><br>
+							<ul>
+								<li><img src="plus_sign.gif" onclick="return toggle('inner_one');"> Personal Assistant: March 2011 - Dec 2011
+									<ul class="detail" id="inner_one">
+										<li>Assisted with technical issues like computers and printers.</li>
+										<li>Did house work and garden work</li>
+										<li>Some cooking and cleaning</li>
+										<li>Made and answered phone calls</li>
+										<li>Formatted documents on the computer</li>
+										<li>Learned various computer programs</li>
+									</ul>
+								</li>
+									
+									
+								<li><img src="plus_sign.gif" onclick="return toggle('inner_two');"> Remote Translator (via email): March 2011 - May 2011
+									<ul id="inner_two">
+										<li>Translated emails from English to Russian and visa versa</li>
+									</ul>
+								</li>
+								
+								
+								<li>
+									<img src="plus_sign.gif" onclick="return toggle('inner_three');"> Computer Lab Assistant at PCC Rock Creek: April 2012 - June 2013
+									<ul class="detail"" id="inner_three">
+										<li>Assisted students with computers</li>
+										<li>Accepted some phone calls</li>
+										<li>Helped students with Microsoft Word and Excel</li>
+										<li>Helped students with other misc. computer tasks such as printing</li>
+										<li>Monitored the computer lab</li>
+									</ul>
+								</li>
+								
+								<li>
+									<img src="plus_sign.gif" onclick="return toggle('inner_four');"> Computer Tutor at PCC Rock Creek Learning Center: April 2013 - June 2014
+									<ul id="inner_four">
+										<li>Tutored students in Computer Information classes</li>
+										<li>Assisted students with the general use of computers</li>
+										<li>Helped students with Microsoft Word and Excel</li>
+										<li>Monitored the computer lab</li>
+										<li>Solved technical issues</li>
+									</ul>
+								</li>
+					</div>
+					
+					<div class="col-xs-3"></div>
+				</div>	
+				
+			<div>
